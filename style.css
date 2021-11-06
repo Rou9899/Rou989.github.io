@@ -120,3 +120,9 @@
 
   }
 }
+.layer img{
+     min-height: 20vh;
+    width: 10%;
+    position: relative;
+    
+}
