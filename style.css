@@ -8,7 +8,7 @@
 .header {
     min-height: 100vh;
     width: 100%;
-    background-image: url("bg.jpg");
+    background-image: url(img/bg.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -43,104 +43,107 @@
 .hero-btn:hover {
     border: 1px, solid rgb(159, 175, 13);
     background: rgb(99, 109, 6);
-    transition: 3s;
+    transition: 1s;
 }
 
-.bebra {
-    background-image: linear-gradient(to bottom, rgb(133, 187, 8), white);
-}
 
-.text-box2 {
-    width: 100%;
-    color: rgb(0, 0, 0);
-    position: relative;
-    transform: translate(0%, 0%);
-    text-align: center;
+.row{
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
 }
-
-.text-box3 {
-    width: 30%;
-    color: rgb(0, 0, 0);
-    position: relative;
-    transform: translate(0%, 0%);
-    text-align: center;
-    top: 20%;
-    right: 5%;
+.bebra{
+  background-image: linear-gradient(to bottom, rgb(133, 187, 8), white);
 }
-
-.text-box4 {
-    width: 30%;
-    color: rgb(0, 0, 0);
-    position: relative;
-    transform: translate(0%, 0%);
-    text-align: center;
-    top: 20%;
-    left: 35%;
-}
-
-.text-box5 {
-    color: rgb(0, 0, 0);
-    position: relative;
-    transform: translate(0%, 0%);
-    text-align: center;
-    top: -160px;
-    left: 35%;
-}
-.end{
-  width: 30%;
-  color: rgb(0, 0, 0);
-  position: relative;
-  transform: translate(0%, 0%);
+.mazda{
+  width: 80%;
+  margin: auto;
   text-align: center;
-  top: 20%;
-  left: 35%;
+  padding-top: 100px;
 }
-.tapav{
-  display: inline-block;
-  text-decoration: none;
-  color: rgb(255, 255, 255);
-  border: 3px solid #fff;
-  padding: 12, 34;
-  font-size: 13px;
-  background: transparent;
-  position: relative;
-  cursor: pointer;
+.h1{
+  font-size:36px;
+  font-weight: 600;
+
 }
-.tapav:hover {
-    border: 1px, solid rgb(159, 175, 13);
-    background: rgb(99, 109, 6);
-    transition: 2s;
-  }
-.tapgachi{
-  display: inline-block;
-  text-decoration: none;
-  color: rgb(255, 255, 255);
-  border: 3px solid #fff;
-  padding: 12, 34;
-  font-size: 13px;
-  background: transparent;
-  position: relative;
-  cursor: pointer;
+.p{
+  color: #777;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+  padding: 10px;
 }
-.tapgachi:hover {
-    border: 1px, solid rgb(159, 175, 13);
-    background: rgb(99, 109, 6);
-    transition: 2s;
+.row{
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
   }
-  .tapboku
-  {
-    display: inline-block;
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    border: 3px solid #fff;
-    padding: 12, 34;
-    font-size: 13px;
-    background: transparent;
-    position: relative;
-    cursor: pointer;
+  .about-column{
+    flex-basis: 31%;
+    background: #a9d521;
+    border-radius: 100px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+
   }
-  .tapboku:hover {
+  .butons{display: inline-block;
+      text-decoration: none;
+      color: rgb(255, 255, 255);
+      border: 3px solid #fff;
+      padding: 12, 34;
+      font-size: 13px;
+      background: transparent;
+      position: relative;
+      cursor: pointer;
+    }
+    .butons:hover {
       border: 1px, solid rgb(159, 175, 13);
       background: rgb(99, 109, 6);
-      transition: 2s;
+      transition: 1s;
     }
+.h3{
+  text-align: center;
+  font-weight: 600;
+  margin: 10px 0;
+
+}
+
+.about-column:hover{
+  box-shadow: 0 0 20px black;
+
+
+}
+@media(max width: 700px){
+  .row{
+    flex-direction: column;
+
+  }
+}
+.mood{
+  width:80%;
+
+margin: auto;
+text-align: center;
+padding-top: 50px;
+
+}
+.mood-column{
+  flex-basis: 32%;
+border-radius: 1px;
+margin-bottom: 30px;
+position: relative;
+overflow: hidden;
+}
+.campus-column img{
+  width: 100%;
+
+}
+.layer{
+  background: rgba(226, 0, 0, 0.7);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top:0;
+  left:0;
+}
