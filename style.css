@@ -140,7 +140,7 @@ overflow: hidden;
 
 }
 .layer{
-  background: rgba(226, 0, 0, 0.7);
+  background: red;
   height: 100%;
   width: 100%;
   position: absolute;
