@@ -8,7 +8,7 @@
 .header {
     min-height: 100vh;
     width: 100%;
-    background-image: url(https://cdn.igromania.ru/mnt/articles/3/4/d/9/b/c/31838/preview/8b2c78cd48eb7a4a_848x477.jpg);
+    background-image: url("bg.jpg");
     background-position: center;
     background-size: cover;
     position: relative;
