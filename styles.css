@@ -1,50 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&display=swap');
-
-:root {
-    --white: #fdf9f3;
-    --bg: #fdf9f3;
-    --dark-bg: #211f22;
-    --light-gray: #e4e4e4;
-    --pink: #ff6188;
-    --orange: #fc9867;
-    --yellow: #ffd866;
-    --green: #a9dc76;
-    --blue: #78dce8;
-    --purple: #ab9df2;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-body {
-	padding: 0;
-	margin: 0;
-	overflow: hidden;
-}
-
-canvas {
-		position: absolute;
-		left: 0;
-		top: 0;
-		width: 100%;
-		height: 100%;
-		image-rendering: optimizeSpeed;
-		image-rendering: -moz-crisp-edges;
-		image-rendering: -o-crisp-edges;
-		image-rendering: -webkit-optimize-contrast;
-		image-rendering: optimize-contrast;
-		image-rendering: crisp-edges;
-		image-rendering: pixelated;
-}
-pre {
-	margin: 0;
-	padding: 0;
-	line-height: 1em;
-	text-align: left;
-	position: absolute;
-	left: 0;
-	top: 0;
-	background-image: radial-gradient(circle, var(--pink) 0%, var(--orange) 50%, var(--yellow) 100%);
-	background-attachment: fixed;
-	-webkit-text-fill-color: transparent;
-	-webkit-background-clip: text;
-	z-index: 9;
-	mix-blend-mode: difference;
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7),url(img/back.png));
+    background-position: center;
+    background-size: cover;
+    position: relative;
 }
