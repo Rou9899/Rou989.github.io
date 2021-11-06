@@ -120,7 +120,14 @@
 
   }
 }
-.e{
-    min-height: 40vh;
-    width: 20%;
+.mood-cloumn img{min-height: 70vh;
+    width: 70%;
+    position: relative;
+  
+}
+.e img{
+     min-height: 70vh;
+    width: 70%;
+    position: relative;
+    
 }
