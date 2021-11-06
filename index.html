@@ -1,4 +1,4 @@
-<script id="vertex" type="x-shader/x-vertex">
+<script id="script" type="x-shader/x-vertex">
 varying vec2 vUv;
 uniform float uTime;
 uniform float mouse;
@@ -15,7 +15,7 @@ void main() {
     gl_Position = projectionMatrix * modelViewMatrix * vec4(transformed, 1.0);
 }
 </script>
-<script id="frag" type="x-shader/x-fragment">
+<script id="script" type="x-shader/x-fragment">
 varying vec2 vUv;
 uniform float mouse;
 uniform float uTime;
